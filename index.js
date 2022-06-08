@@ -3,7 +3,7 @@ import cors from "cors";
 import dotenv from "dotenv";
 import multer from "multer";
 dotenv.config();
-const upload = multer({ dest: "uploads/" });
+const upload = multer();
 
 var app = express();
 
